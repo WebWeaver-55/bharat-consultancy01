@@ -93,7 +93,7 @@ Please get back to me at your earliest convenience. Thank you!`
                   </div>
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-primary font-medium">info@consultancy.com</p>
+                    <p className="text-primary font-medium">query.bharatconsultancy@gmail.com</p>
                   </div>
                 </div>
 
