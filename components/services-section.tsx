@@ -119,9 +119,10 @@ const services = [
 export function ServicesSection() {
   const [expandedService, setExpandedService] = useState<number | null>(null)
 
-  const handleApplyNow = () => {
-    window.open("tel:+919997244002", "_self")
-  }
+ const handleApplyNow = () => {
+  window.open("https://wa.me/919997244002", "_self")
+}
+
 
   const toggleExpanded = (serviceId: number) => {
     setExpandedService(expandedService === serviceId ? null : serviceId)
