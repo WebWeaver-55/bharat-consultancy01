@@ -58,14 +58,18 @@ export function HeroSection() {
               Our Services
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="text-lg px-10 py-5 w-full lg:w-auto min-h-[60px] bg-white hover:bg-gray-50 border-2 border-green-600 hover:border-green-700 text-green-600 hover:text-green-700 font-semibold rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-              onClick={() => window.open('https://wa.me/919997244002', '_blank')}
-            >
-              Contact Us
-            </Button>
+           <Button 
+  variant="outline" 
+  size="lg" 
+  className="text-lg px-10 py-5 w-full lg:w-auto min-h-[60px] bg-white hover:bg-gray-50 border-2 border-green-600 hover:border-green-700 text-green-600 hover:text-green-700 font-semibold rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+  onClick={() => {
+    const message = "Hi! I'm interested in your business consultancy services. Could you please provide more information?"
+    const encodedMessage = encodeURIComponent(message)
+    window.open(`https://wa.me/919997244002?text=${encodedMessage}`, '_blank')
+  }}
+>
+  Contact Us
+</Button>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-16 max-w-4xl mx-auto px-6 lg:px-0">
