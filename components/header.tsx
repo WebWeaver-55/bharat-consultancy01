@@ -17,13 +17,12 @@ export function Header() {
         <div className="flex items-center space-x-2">
           {/* Logo - can be either image or text initials */}
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold overflow-hidden">
-            {/* Replace this div with an img tag to use an image:
+          
             <img 
               src="https://i.postimg.cc/j5xxpjzk/Whats-App-Image-2025-09-09-at-18-28-41-5c2ba9d4.jpg" 
               alt="Bharat Consultancy Logo" 
               className="h-full w-full object-contain"
-            /> */}
-            BC
+            />
           </div>
           <span className="text-xl font-bold text-foreground">Bharat Consultancy</span>
         </div>
