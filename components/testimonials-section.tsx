@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
    
-    business: "Bel Air", 
+    business: "Hotel Bel Air", 
     location: "Dehradun",
     rating: 5,
     text: "Excellent service for GST registration and trademark filing. Professional team with deep knowledge of Indian business laws.",
@@ -23,7 +23,7 @@ const testimonials = [
   },
   {
     
-    business: "Hnadi Punjab Ki",
+    business: "Handi Punjab Ki",
     location: "Dehradun",
     rating: 5,
     text: "Their MSME registration service saved us months of paperwork. Highly recommend for any business compliance needs.",
