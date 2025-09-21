@@ -7,8 +7,15 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold">
-                BC
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold overflow-hidden">
+                {/* Option 1: Use image logo */}
+                <img 
+                  src="https://i.postimg.cc/j5xxpjzk/Whats-App-Image-2025-09-09-at-18-28-41-5c2ba9d4.jpg" 
+                  alt="Bharat Consultancy Logo" 
+                  className="h-full w-full object-contain"
+                />
+                {/* Option 2: Keep text fallback - uncomment below and comment image above if needed */}
+                {/* BC */}
               </div>
               <span className="text-xl font-bold">Bharat Consultancy</span>
             </div>
